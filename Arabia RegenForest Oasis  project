@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Arabia RegenForest Oasis</title>
+</head>
+
+<body>
+    <header>
+        <h1>Arabia RegenForest Oasis</h1>
+        <p>Reviving Nature, Nurturing Life</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#subscribe">Subscribe</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Arabia RegenForest Oasis</h2>
+        <p>Discover sustainable practices for a greener future.</p>
+    </section>
+
+    <section id="about">
+        <h2>Our Mission</h2>
+        <p>To establish an exemplary permaculture model farm that is economically self-sustainable, environmentally respectful, and socially responsible. Our vision extends beyond sustainable farming – we aspire to create a wildlife refuge and foster a lifestyle deeply rooted in nature, harmonizing with its cycles and drawing wisdom from ancient traditions. Committed to knowledge-sharing, we aim to develop an education and research center, enriching the community with experiences and insights for a more sustainable future.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services and Products</h2>
+        <ul>
+            <li>Organic Vegetable and Fruit Farming</li>
+            <li>Medicinal Herbs and Plants Cultivation</li>
+            <li>Agro-tourism and Educational Programs</li>
+            <li>Cacao and Tropical Fruit Orchard</li>
+            <li>Beekeeping and Honey Production</li>
+            <li>Aquaculture</li>
+            <li>Mushroom Cultivation</li>
+            <li>Photography and Film Location Services</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Explore Our Oasis</h2>
+        <!-- Add images or videos -->
+    </section>
+
+    <section id="subscribe">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with our latest news and events.</p>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="button" onclick="subscribe()">Subscribe</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for more information or collaboration opportunities.</p>
+        <address>
+            Email: info@regenforestoasis.com<br>
+            Phone: +123-456-7890<br>
+            Address: Oasis Street, RegenForest City
+        </address>
+        <!-- You can also add a contact form here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Arabia RegenForest Oasis</p>
+        <!-- Add social media icons or links here -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+/* Your existing styles remain unchanged */
+
+/* Additional styles for the new sections */
+#gallery {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+#subscribe {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+form label,
+form input {
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
